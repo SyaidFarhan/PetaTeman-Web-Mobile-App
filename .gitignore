@@ -1,0 +1,105 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Backend - Go
+backend/bin/
+backend/dist/
+backend/.DS_Store
+backend/vendor/
+backend/*.exe
+backend/*.dll
+backend/*.so
+backend/*.dylib
+
+# Backend - IDE
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+backend/*.swo
+backend/*~
+backend/.project
+backend/.classpath
+backend/.c9/
+backend/*.jmx
+backend/*.sublime-workspace
+backend/debug.log
+
+# Frontend - Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp
+frontend/.pnp.js
+
+# Frontend - Build artifacts
+frontend/build/
+frontend/coverage/
+frontend/.parcel-cache
+frontend/.cache
+
+# Frontend - IDE
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/*.swo
+frontend/*~
+frontend/.project
+frontend/.classpath
+frontend/.c9/
+frontend/*.jmx
+frontend/*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# IDE General
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vim/
+.emacs.d/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
